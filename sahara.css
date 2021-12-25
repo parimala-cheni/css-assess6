@@ -1,0 +1,185 @@
+
+body{
+    background-image: url(./shara_desert\ \(1\).jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    margin: 60px 10px 0px 50px;
+}
+
+ul{
+    float: right;
+    margin-right: 150px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px 40px 10px 0px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    float: right;
+    margin: 20px 30px 30px 1050px;
+    position: absolute;
+}
+
+
+.sahara{
+    color: white;
+    line-height: 20px;
+    display:flex; 
+
+
+}
+h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+        
+}
+
+.about{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
+.slides{
+    float: right;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns:300px 100px ;
+    grid-template-rows: 300px 100px;
+
+}
+
+.west{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px; 
+    height: 250px; 
+    padding-left: 20px;
+    background-image: url(./west.png);
+    background-size: cover;
+    margin: 10px;
+    transition:transform 1s 
+
+}
+.west:hover{
+    transform:translateY(-20px)
+
+}
+
+.albhagwat{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px; 
+    height: 250px; 
+    background-image: url(./albhawat.png);
+    background-size: cover;
+    margin: 10px;
+    padding-left: 20px;
+    transition:transform 1s
+
+}
+.albhagwat:hover{
+    transform:translateY(-20px)
+
+}
+
+.pyramid{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px; 
+    height: 250px; 
+    background-image: url(./pyramid.png);
+    background-size: cover;
+    margin: 10px;
+    padding-left: 20px;
+    transition:transform 1s
+
+
+}
+.pyramid:hover{
+    transform:translateY(-20px)
+
+}
+
+
+.desert{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px; 
+    height: 250px; 
+    background-image: url(./nyt.png);
+    background-size: cover;
+    margin: 10px;
+    padding-left: 20px;
+    transition:transform 1s
+
+}
+.desert:hover{
+    transform:translateY(-20px)
+
+}
+
+@media screen and (min-width:300px) and (max-width:650px){
+    li{
+        display: block;
+        font-size: 20px;
+    }
+    ul{
+        margin-right: 30px;
+        margin-top: 0px;
+    
+    }
+    .logo{
+        margin: 10px 20px 10px 50px;
+    }
+    .menu{
+        margin: 10px 150px;
+    }
+    body{
+        background-size: cover;
+    }
+    .sahara{
+        display:block
+    }
+    .about{
+        position: relative;
+        margin-top: 50px;
+        
+    }
+    h1{
+        font-size: 50px;
+
+    }
+    .slides{
+        display: block;
+        margin: 10px;
+    }
+   
+   
+}
+
